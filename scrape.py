@@ -44,5 +44,5 @@ for i in range(1000):
         pass
     if i%100==0:
         df = pd.DataFrame(dict)
-        df.to_csv("data"+str(i/1000)+".csv", index=False)
+        df.to_csv("data"+str(i/100)+".csv", index=False)
         dict = {"headlines": [], "text": [], "date": [], "author": [], "read_more": []}
